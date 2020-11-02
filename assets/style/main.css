@@ -1,0 +1,320 @@
+/*
+#ECF0F1
+#F6F7EB : Ivory
+#393E41 : Onyx
+*/
+
+* {
+    margin: 0px;
+    font-family: 'Arvo';
+    color: #212A3B;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #F6F7EB;
+    min-height: 8vh;
+    z-index: 1;
+}
+
+.logo-name {
+    padding: 10px;
+    height: 70px;
+    width: 80px;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    flex: 3;
+}
+
+.nav-menu ul {
+    padding-left: 0px;
+}
+
+.nav-menu ul li {
+    display: inline;
+    list-style: none;
+    padding-right: 50px;
+}
+
+.nav-menu ul li a {
+    font-size: 20px;
+    text-decoration-line: none;
+
+}
+
+
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F7EB;
+    height: 100vh;
+}
+
+.thesis {
+    width: 40%;
+    text-align: center;
+}
+
+.thesis span {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.thesis .red {
+    font-weight: 900;
+    color: red;
+}
+
+.scroll-button {
+    position: absolute;
+    bottom: 5vh;
+}
+
+.scroll-button .scroll-down {
+    border: none;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.body-challenge {
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.info-challenge {
+    width: 50%;
+    padding: 20px;
+}
+
+.info-challenge h1 {
+    font-size: 32px;
+}
+
+.info-challenge p {
+    padding: 20px 20px 20px 0px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.body-image {
+    height: 50vh;
+}
+
+.body-image {
+    width: 100%;
+    height: auto;
+}
+
+
+.body-solution {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.footer {
+    display: flex;
+    height: 13.5vh;
+    background-color: #212A3B;
+    justify-content: space-evenly;
+}
+
+.footer div {
+    margin: 20px;
+}
+
+.foot-menu {
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-menu ul li:first-child {
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.info p, .info p strong,.info a {
+    font-size: 12px;
+    color: white;
+}
+
+.copyright p {
+    font-size: 12px;
+    color: white;
+}
+
+
+.facing-challenge, .solutions {
+    display: flex;
+    flex-direction: row;
+    height:76.3vh;
+}
+
+.solutions {
+    height: 95vh;
+}
+
+.facing-challenge div, .solutions div {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    background-color: #F6F7EB;
+}
+
+.solutions div:first-child {
+    align-items: center;
+}
+
+.facing-challenge div img {
+    width: 100%;
+    height: 60%;
+}
+
+.solutions div img {
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+    
+}
+
+.facing-challenge p {
+    padding: 20px 20px 20px 0px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.solutions p {
+    padding: 20px 20px 20px 0px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.technology {
+    min-height: 25vh;
+    background-color: #F4F4F4;
+}
+
+.technology div {
+    padding: 20px 20px 20px 20px;   
+}
+
+.technology h1 {
+    text-decoration: underline;
+}
+
+.technology p {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.visualization {
+    display: flex;
+    flex-direction: row;
+    min-height: 35vh;
+    background-color: #F6F7EB;
+}
+
+.visualization div{
+    flex: 1;
+}
+
+
+
+.visualization div img {
+    width: 100%;
+    height: 100%;
+}
+
+.visualization div:last-child {
+    padding: 20px 20px 20px 20px;   
+}
+
+.visualization h1 {
+    text-decoration: underline;
+}
+
+.visualization p {
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+.goal {
+    display: flex;
+    flex-direction: row;
+    min-height: 35vh;
+    background-color: #F4F4F4;
+}
+
+.goal div:first-child {
+    flex: 1;
+}
+
+.goal div:last-child {
+    flex: 1.1;
+    
+}
+
+.goal div img {
+    width: 100%;
+    height: 100%;
+}
+
+.goal div{
+    padding: 20px 20px 20px 20px;   
+}
+
+.goal h1 {
+    text-decoration: underline;
+}
+
+.goal p {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
