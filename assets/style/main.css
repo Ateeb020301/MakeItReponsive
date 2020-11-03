@@ -1,0 +1,177 @@
+/*
+#F1FAEE
+#1D3557
+#E63946
+*/
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+
+.web-head {
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    align-items: center;
+    background-color: #F1FAEE;
+}
+
+.logo-head {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.nav-head {
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.nav-head ul li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 30px;
+}
+.nav-head ul li a{
+    font-size: 20px;
+    color:  #1D3557;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-head ul li a{
+    position: relative;
+}
+
+.nav-head a:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-head a:hover:before{
+    visibility: visible;
+    color: peachpuff;
+    width: 100%;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 85vh;
+    background-color: #1D3557;
+    color: white;
+}
+
+.main-body div h2 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.main-body div {
+    width: 50%;
+    text-align: center;
+}
+
+.main-body p {
+    font-size: 18px;
+}
+
+
+.our-business {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 25vh;
+    border-width: 2px;
+    padding-top: 20px;
+    
+}
+
+.our-business div {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 90%;
+    border-style: solid;
+    border-width: 2px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+.our-business div h2 {
+    color: #E63946;
+}
+
+.our-business div:hover {
+    background-color: #1D3557;
+    color: white;
+    border-color: #1D3557;
+}
+
+.our-business div a:hover {
+    color: white;
+}
+
+.our-business div p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.our-business div p {
+    padding-top: 10px;
+}
+
+.intro-business {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+}
+
+.intro-business div {
+    flex: 1;
+    padding: 15px;
+    line-height: 1.5;
+
+}
+
+.intro-business div:nth-child(even) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left-style: solid;
+    border-color: #1D3557;
+    border-width: 2px;
+    margin: 10px;
+}
+
+.intro-business div h2 {
+    color: #E63946;
+}
+
+.intro-business div p {
+    padding-top: 10px;
+}
+
+.intro-business div img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    min-height: 25vh;
+    background-color: #E63946;
+    display: flex;
+}
