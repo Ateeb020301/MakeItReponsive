@@ -175,3 +175,19 @@
     background-color: #E63946;
     display: flex;
 }
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+
+}
+.staff_members{
+    background-color: beige;
+    margin: 8px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 18px;
+    position: relative;
+}
