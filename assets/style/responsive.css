@@ -1,4 +1,16 @@
-@media screen and(max-width:1000px){
+@media(max-width:1025px){
+    .web-head{
+        padding: 10px 30px;
+        align-items:normal ;
+        flex-direction: normal;
+        
+    }
+    .logo-head{
+        flex:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .fa-bars{
         position: absolute;
         right: 20px;
@@ -6,10 +18,10 @@
     }
     .web-head .fa{
         display: block;
-        color: #fff;
+        color: #E63946;
         margin: 10px 25px;
         font-size: 26px;
-        cursor: grab;
+        cursor: pointer;
     }
     .nav-head{
         height: 100vh;
@@ -21,7 +33,12 @@
         text-align: left;
         z-index: 2;
         transition: 0.55s;
+        padding-right: 0;
     }
+    .nav-head ul{
+        padding:80px 20px;
+    }
+
     .nav-head ul a{
         display: block;
     }
