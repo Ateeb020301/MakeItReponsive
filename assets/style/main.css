@@ -22,6 +22,13 @@
     flex: 1;
     justify-content: flex-end;
 }
+.logo-head h2{
+    padding: 40px;
+}
+.logo-head img{
+    margin: 8px;
+    height: 80px;
+}
 
 .nav-head {
     display: flex;
@@ -182,6 +189,9 @@
     justify-content: center;
 
 }
+.main-body h2{
+    margin-bottom: 30px;
+}
 .staff_members{
     background-color: beige;
     margin: 8px;
@@ -190,6 +200,7 @@
     padding: 20px;
     line-height: 18px;
     position: relative;
+    color: #1D3557;
 }
 .nav-head ul li .fa{
     float: right;
