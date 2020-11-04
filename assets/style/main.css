@@ -191,3 +191,9 @@
     line-height: 18px;
     position: relative;
 }
+.nav-head ul li .fa{
+    float: right;
+}
+.web-head .fa{
+    display: none;
+}

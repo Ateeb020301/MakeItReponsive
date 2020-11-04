@@ -1,0 +1,28 @@
+@media screen and(max-width:1000px){
+    .fa-bars{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    .web-head .fa{
+        display: block;
+        color: #fff;
+        margin: 10px 25px;
+        font-size: 26px;
+        cursor: grab;
+    }
+    .nav-head{
+        height: 100vh;
+        width: 200px;
+        background: #666;
+        top: 0;
+        right: -200px;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+        transition: 0.55s;
+    }
+    .nav-head ul a{
+        display: block;
+    }
+}
