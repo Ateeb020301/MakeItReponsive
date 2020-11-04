@@ -82,19 +82,43 @@
     color: white;
 }
 
-.main-body div h2 {
+.about-body {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap:wrap;
+    font-size: 20px;
+    height: 85vh;
+    background-color: #1D3557;
+    color: white;
+}
+
+.team {
+    border-style: solid;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team div {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    color: #1D3557;
+    height: 29%;
+    width: 29%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.about-body div h2 {
     padding-bottom: 10px;
     text-align: center;
 }
-.main-body div {
-    width: 50%;
-    text-align: center;
-}
-
-.main-body p {
-    font-size: 18px;
-}
-
 
 .our-business {
     display: flex;
@@ -182,26 +206,11 @@
     background-color: #E63946;
     display: flex;
 }
-.team{
-    display: flex;
-    text-align: center;
-    width: auto;
-    justify-content: center;
 
-}
-.main-body h2{
+.about-body h2{
     margin-bottom: 30px;
 }
-.staff_members{
-    background-color: beige;
-    margin: 8px;
-    margin-bottom: 50px;
-    width: 300px;
-    padding: 20px;
-    line-height: 18px;
-    position: relative;
-    color: #1D3557;
-}
+
 .nav-head ul li .fa{
     float: right;
 }
