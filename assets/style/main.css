@@ -120,6 +120,12 @@ html {
 .main-body div {
     width: 50%;
     text-align: center;
+    font-size: 24px;
+}
+
+.main-body div h2 {
+    font-size: 32px;
+    padding: 20px;
 }
 
 .about-body {
@@ -240,34 +246,20 @@ td, th {
 
 .our-business {
     display: flex;
-    justify-content: space-evenly;
-    min-height: 25vh;
-    border-width: 2px;
-    padding-top: 20px;
-
-    
-}
-
-.our-business div {
-    display: flex;
     flex-direction: column;
-    width: 20%;
-    height: 90%;
-    border-style: solid;
-    border-width: 2px;
-    padding: 20px;
-    border-radius: 5px;
-    margin: 5px;
+    justify-content: center;
+    min-height: 20vh;
+    margin: 20px;
 }
 
-.our-business div h2 {
+.our-business h2 {
     color: #E63946;
+    font-size: 28px;
 }
 
-.our-business div:hover {
-    background-color: #1D3557;
-    color: white;
-    border-color: #1D3557;
+.our-business p {
+    font-size: 20px;
+    color: #1D3557;
 }
 
 .our-business div a:hover {
@@ -321,9 +313,73 @@ td, th {
 }
 
 .footer {
-    min-height: 25vh;
+    height: 15vh;
     background-color: #E63946;
     display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-nav {
+    width: 25%;
+}
+
+.foot-cop {
+    width: 30%;
+}
+
+.foot-info {
+    width: 25%;
+
+}
+
+.footer div:last-of-type {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer div div:last-of-type {
+    flex-direction: column;
+}
+
+.footer div div {
+    border-style: solid;
+    border-radius: 3px;
+    flex-basis: 45%;
+    text-align: center;
+    margin: 5px;
+}
+
+.footer div div:hover {
+    background-color: #1D3557;
+    border-color: #1D3557;
+}
+
+.footer div ul li {
+    list-style-type: none;
+}
+
+.footer div ul li:first-child {
+    font-weight: bolder;
+    text-decoration: underline
+}
+
+.footer div div p:first-child {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.footer div a {
+    color: white;
+    text-decoration: none;
 }
 
 .about-body h2{
