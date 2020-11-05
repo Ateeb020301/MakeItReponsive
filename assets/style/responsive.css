@@ -53,16 +53,40 @@
     }
 }
 
-@media(max-width:1370px){
-    .team div{
-        display: inline-block;
-        height: 500px;
-        width: 500px;
-        margin: 20px;
+@media(max-width: 400px){
+    .about-body {
+        min-height: 85vh;
+    }
+
+    .team {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .team div {    
+        margin: 10px;
         background-color: #F1FAEE;
+        color: #1D3557;
+        height: 50%;
+        width: 50%;
+        border-radius: 5px;
     }
-    .about-body{
-        height: auto;
-        
+
+    .team div img {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 40%;
+        height: 50%;
+        border-radius: 100%;
     }
+    
+    .team div p {
+        padding : 2px;
+        font-size: 14px;
+    }
+    
 }
