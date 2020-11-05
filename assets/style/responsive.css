@@ -52,3 +52,17 @@
         padding-top: 130px;
     }
 }
+}
+@media(max-width:1370px){
+    .team div{
+        display: inline-block;
+        height: 500px;
+        width: 500px;
+        margin: 20px;
+        background-color: #F1FAEE;
+    }
+    .about-body{
+        height: auto;
+        
+    }
+}
