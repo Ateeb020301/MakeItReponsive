@@ -3,8 +3,22 @@ var close = document.getElementById("close")
 var nav = document.getElementById("navid");
 
 open.onclick=function(){
-nav.style.right="0";
+    nav.style.display ="block";
+    setTimeout(showAnimate, 0);
 }
+
 close.onclick=function(){
-    nav.style.right='-200px';
-    }
+    nav.style.transform = "translateX(200px)";
+    setTimeout(closeAnimate, 560);
+
+
+}
+
+function showAnimate() {
+    nav.style.transform = "translateX(0px)";
+}
+
+function closeAnimate() {
+    nav.style.display = "none";
+
+}
