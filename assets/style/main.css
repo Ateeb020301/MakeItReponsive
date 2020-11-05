@@ -144,7 +144,7 @@
 }
 
 .team div {
-    margin-right: 39px;
+    
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -152,7 +152,7 @@
     background-color: #F1FAEE;
     color: #1D3557;
     height: 29%;
-    width: 30%;
+    width: 35%;
     text-align: center;
     border-radius: 5px;
 }
