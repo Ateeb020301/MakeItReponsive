@@ -161,6 +161,22 @@ html {
     transition: 0.2s;
 }
 
+.schedule-body div:last-child {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    color: #1D3557;
+}
+
+.schedule-body div:last-child ul  {
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.schedule-body div:last-child ul li {
+    padding: 10px;
+}
+
 .team div img {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -193,7 +209,6 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-style: solid;
     height:45vh;
 }
 
@@ -229,20 +244,20 @@ td, th {
     min-height: 25vh;
     border-width: 2px;
     padding-top: 20px;
+
     
 }
 
 .our-business div {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 20%;
     height: 90%;
     border-style: solid;
     border-width: 2px;
     padding: 20px;
     border-radius: 5px;
     margin: 5px;
-
 }
 
 .our-business div h2 {
@@ -278,6 +293,7 @@ td, th {
     flex: 1;
     padding: 15px;
     line-height: 1.5;
+    font-size: 20px;
 
 }
 
