@@ -111,7 +111,6 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
     height: 85vh;
     background-color: #1D3557;
     color: white;
@@ -249,6 +248,7 @@ td, th {
     flex-direction: column;
     justify-content: center;
     min-height: 20vh;
+    line-height: 1.5;
     margin: 20px;
 }
 
@@ -278,7 +278,7 @@ td, th {
 .intro-business {
     display: flex;
     flex-direction: row;
-    height: 50vh;
+    min-height: 50vh;
 }
 
 .intro-business div {
@@ -286,6 +286,7 @@ td, th {
     padding: 15px;
     line-height: 1.5;
     font-size: 20px;
+    margin: 10px;
 
 }
 
@@ -296,7 +297,12 @@ td, th {
     border-left-style: solid;
     border-color: #1D3557;
     border-width: 2px;
-    margin: 10px;
+
+}
+
+.intro-business div:first-child {
+    display: flex;
+    align-items: center;
 }
 
 .intro-business div h2 {
@@ -308,8 +314,8 @@ td, th {
 }
 
 .intro-business div img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .footer {
@@ -365,6 +371,8 @@ td, th {
 
 .footer div ul li {
     list-style-type: none;
+    display: inline;
+    padding-right: 20px;
 }
 
 .footer div ul li:first-child {
