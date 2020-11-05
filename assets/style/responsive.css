@@ -1,4 +1,9 @@
-@media(max-width:1025px){
+@media only screen and (max-width: 1600px) {
+    .footer {
+    }
+} 
+
+@media only screen and (max-width:1025px){
     .web-head{
         padding: 10px 30px;
         align-items:normal ;
@@ -58,7 +63,7 @@
     }
 }
 
-@media(max-width: 400px){
+@media only screen and (max-width: 400px){
     .about-body {
         min-height: 85vh;
     }

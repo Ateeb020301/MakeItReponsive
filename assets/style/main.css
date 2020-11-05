@@ -313,7 +313,7 @@ td, th {
 }
 
 .footer {
-    height: 15vh;
+    min-height: 15vh;
     background-color: #E63946;
     display: flex;
     justify-content: space-evenly;
