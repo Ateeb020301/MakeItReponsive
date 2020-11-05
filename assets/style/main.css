@@ -19,15 +19,45 @@
 
 .logo-head {
     display: flex;
+    flex-direction: row;
     flex: 1;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 .logo-head h2{
-    padding: 40px;
+    padding: 20px;
+    color: #1D3557;
 }
-.logo-head img{
-    margin: 8px;
-    height: 80px;
+
+.logo-head h2:hover {
+    cursor: context-menu;
+}
+
+.logo-head img {
+    height: 50px;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+.logo-head img {
+    transform: rotate(0deg);
+    transition: 2s;
+
+}
+
+.logo-head img:hover {
+    animation-name: animate;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
 }
 
 .nav-head {
@@ -71,6 +101,7 @@
     width: 100%;
 }
 
+
 .main-body {
     display: flex;
     flex-direction: column;
@@ -80,6 +111,11 @@
     height: 85vh;
     background-color: #1D3557;
     color: white;
+}
+
+.main-body div {
+    width: 50%;
+    text-align: center;
 }
 
 .about-body {
@@ -144,6 +180,50 @@
     padding-bottom: 10px;
     text-align: center;
 }
+
+.schedule-body {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    height: 85vh;
+    background-color: #F1FAEE;
+    color: black;
+}
+
+.schedule-body div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    height:45vh;
+}
+
+.schedule-body div table {
+    border-collapse: collapse;
+    font-size: 16px;
+    width: 50%;
+    margin: 20px;
+    color: #1D3557;
+}
+
+.schedule-body div h2 {
+    color: #1D3557;
+}
+
+.schedule-body div table tr:nth-child(odd) {
+    background-color: #CEECF5;
+}
+
+.schedule-body div table tr td:first-child {
+    font-weight: 600;
+}
+
+td, th {
+    padding: 5px;
+    text-align: center;
+}
+
 
 .our-business {
     display: flex;
@@ -242,3 +322,5 @@
 .web-head .fa{
     display: none;
 }
+
+
