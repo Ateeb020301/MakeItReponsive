@@ -3,6 +3,7 @@ var close = document.getElementById("close")
 var nav = document.getElementById("navid");
 
 open.onclick=function(){
+    close.style.display = "block";
     nav.style.display ="block";
     setTimeout(showAnimate, 0);
 }

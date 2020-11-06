@@ -204,7 +204,7 @@ html {
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    height: 85vh;
+    min-height: 85vh;
     background-color: #F1FAEE;
     color: black;
 }
@@ -214,7 +214,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:45vh;
+    min-height:45vh;
 }
 
 .schedule-body div table {
@@ -394,11 +394,15 @@ td, th {
     margin-bottom: 30px;
 }
 
-.nav-head ul li .fa{
-    float: right;
-}
-.web-head .fa{
+.web-head div:last-child {
     display: none;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    
 }
 
+#close {
+    display: none;
+}
 
