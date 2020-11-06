@@ -406,6 +406,7 @@ td, th {
     display: none;
 }
 .foot-cop{
+    text-align: center;
     background-color:#f05966;
     padding: 5px;
     font-size: 12px;
