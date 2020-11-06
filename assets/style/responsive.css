@@ -125,6 +125,46 @@
         font-size: 18px;
     }
 
+    .team {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .team div {
+        width: 25%;
+        height: 25%;
+    }
+
+    .team div img {
+        width: 45%;
+        height: 45%;
+        border-radius: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .team {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .team div {
+        width: 30%;
+        height: 35%;
+    }
+
+    .team div img {
+        width: 30%;
+        height: 30%;
+        border-radius: 100%;
+    }
 }
 
 @media only screen and (max-width: 710px) {
@@ -180,6 +220,8 @@
     .schedule-body div:last-child ul li  {
         font-size: 16px;
     }
+
+
 }
 
 @media only screen and (max-width: 530px) {
@@ -232,6 +274,24 @@
     .schedule-body div:last-child ul li  {
         font-size: 14px;
     }
+
+    .team {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .team div {
+        width: 30%;
+        height: 35%;
+    }
+
+    .team div img {
+        width: 30%;
+        height: 30%;
+        border-radius: 100%;
+    }
 }
 
 @media only screen and (max-width: 405px){
@@ -240,34 +300,21 @@
     }
 
     .team {
-        display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
-        width: 100%;
-
+        font-size: 9px;
     }
 
-    .team div {    
-        margin: 10px;
-        background-color: #F1FAEE;
-        color: #1D3557;
-        height: 50%;
-        width: 50%;
-        border-radius: 5px;
+    .team div {
+        width: 30%;
+        height: 35%;
     }
 
     .team div img {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        width: 40%;
-        height: 50%;
+        width: 30%;
+        height: 30%;
         border-radius: 100%;
-    }
-    
-    .team div p {
-        padding : 2px;
-        font-size: 14px;
     }
 
     .schedule-body div:first-child h2 {
@@ -286,4 +333,26 @@
     .schedule-body div:last-child ul li  {
         font-size: 12px;
     }
+}
+
+@media only screen and (max-width: 335px) {
+    
+    .team {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        font-size: 9px;
+    }
+
+    .team div {
+        width: 35%;
+        height: 25%;
+    }
+
+    .team div img {
+        width: 30%;
+        height: 30%;
+        border-radius: 100%;
+    }
+
 }
