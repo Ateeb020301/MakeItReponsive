@@ -405,4 +405,10 @@ td, th {
 #close {
     display: none;
 }
-
+.foot-cop{
+    background-color:#f05966;
+    padding: 5px;
+    font-size: 12px;
+}
+/*#f14655;
+#ec6e78*/
