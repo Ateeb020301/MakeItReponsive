@@ -25,7 +25,7 @@
     
     .foot-cop {
         width: 100%;
-
+        background-color:#f05966;
         order: 3;
     }
 
@@ -144,6 +144,8 @@
         height: 45%;
         border-radius: 100%;
     }
+
+    
 
 }
 
@@ -336,7 +338,9 @@
 }
 
 @media only screen and (max-width: 335px) {
-    
+    .logo-head h2 {
+        font-size: 20px;
+    }
     .team {
         flex-direction: column;
         flex-wrap: nowrap;
