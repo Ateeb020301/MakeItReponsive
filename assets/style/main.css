@@ -18,7 +18,7 @@ html {
     display: flex;
     flex-direction: row;
     height: 15vh;
-    align-items: center;
+    align-items: center;;
     background-color: #F1FAEE;
 }
 
@@ -409,3 +409,13 @@ td, th {
 }
 /*#f14655;
 #ec6e78*/
+.div{
+    width: 100%;
+    text-align: center;
+
+}
+div ul{
+    align-content: center;
+    position: relative;
+    display: inline-block;
+}
