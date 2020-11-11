@@ -141,7 +141,7 @@ html {
 }
 
 .team {
-    width: 50%;
+    width: 45%;
     min-height: 85vh;
     display: flex;
     flex-direction: row;
@@ -156,17 +156,10 @@ html {
     align-items: center;
     background-color: #F1FAEE;
     color: #1D3557;
-    height: 25%;
-    width: 31%;
     text-align: center;
     border-radius: 5px;
 }
 
-.team div:hover {
-    background-color: #1D3557;
-    color: white;
-    transition: 0.2s;
-}
 
 .schedule-body div:last-child {
     justify-content: flex-start;
@@ -185,11 +178,9 @@ html {
 }
 
 .team div img {
-    margin-top: 5px;
     margin-bottom: 5px;
-    width: 40%;
-    height: 50%;
-    border-radius: 100%;
+    max-width: 100%;
+    max-height: auto;
 }
 
 .team div p {
