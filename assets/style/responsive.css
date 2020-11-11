@@ -33,6 +33,10 @@
         flex-basis: 20%;
         border-style: none;
     }
+
+    .team {
+        width: 50%;
+    }
 } 
 
 @media only screen and (max-width:1025px){
@@ -130,43 +134,20 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        font-size: 15px;
-        width: 100%;
+        width: 60%;
     }
 
-    .team div {
-        width: 25%;
-        height: 25%;
-    }
-
-    .team div img {
-        width: 45%;
-        height: 45%;
-        border-radius: 100%;
-    }
-
-    
 
 }
 
 @media only screen and (max-width: 800px) {
     .team {
-        flex-direction: column;
-        flex-wrap: nowrap;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
-        font-size: 14px;
+        width: 80%;
     }
 
-    .team div {
-        width: 30%;
-        height: 35%;
-    }
-
-    .team div img {
-        width: 30%;
-        height: 30%;
-        border-radius: 100%;
-    }
 }
 
 @media only screen and (max-width: 710px) {
@@ -221,6 +202,10 @@
 
     .schedule-body div:last-child ul li  {
         font-size: 16px;
+    }
+
+    .team {
+        width: 100%;
     }
 
 
@@ -278,22 +263,18 @@
     }
 
     .team {
-        flex-direction: column;
-        flex-wrap: nowrap;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
-        font-size: 10px;
     }
 
     .team div {
-        width: 30%;
-        height: 35%;
+        width: 40%;
     }
 
-    .team div img {
-        width: 30%;
-        height: 30%;
-        border-radius: 100%;
-    }
+
+
+
 }
 
 @media only screen and (max-width: 405px){
@@ -305,18 +286,11 @@
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
-        font-size: 9px;
+        width: 100%;
     }
 
     .team div {
-        width: 30%;
-        height: 35%;
-    }
-
-    .team div img {
-        width: 30%;
-        height: 30%;
-        border-radius: 100%;
+        width: 50%;
     }
 
     .schedule-body div:first-child h2 {
@@ -345,18 +319,10 @@
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
-        font-size: 9px;
     }
 
-    .team div {
-        width: 35%;
-        height: 25%;
-    }
-
-    .team div img {
-        width: 30%;
-        height: 30%;
-        border-radius: 100%;
+    .team div p {
+        font-size: 12px;
     }
 
 }
