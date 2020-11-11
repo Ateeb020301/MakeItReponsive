@@ -36,12 +36,7 @@
 } 
 
 @media only screen and (max-width:1025px){
-    .web-head{
-        padding: 10px 30px;
-        align-items:normal ;
-        flex-direction: normal;
-        
-    }
+
     .logo-head{
         flex:none;
         display: flex;
@@ -125,7 +120,7 @@
         font-size: 18px;
     }
 
-    .team {
+   /* .team {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -144,20 +139,18 @@
         height: 45%;
         border-radius: 100%;
     }
-
-    
-
+*/
 }
-
 @media only screen and (max-width: 800px) {
+    /*
     .team {
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
         font-size: 14px;
-    }
+    }*/
 
-    .team div {
+   /* .team div {
         width: 30%;
         height: 35%;
     }
@@ -166,7 +159,7 @@
         width: 30%;
         height: 30%;
         border-radius: 100%;
-    }
+    }*/
 }
 
 @media only screen and (max-width: 710px) {
@@ -276,7 +269,7 @@
     .schedule-body div:last-child ul li  {
         font-size: 14px;
     }
-
+/*
     .team {
         flex-direction: column;
         flex-wrap: nowrap;
@@ -293,14 +286,14 @@
         width: 30%;
         height: 30%;
         border-radius: 100%;
-    }
+    }*/
 }
 
 @media only screen and (max-width: 405px){
     .about-body {
         min-height: 85vh;
     }
-
+/*
     .team {
         flex-direction: column;
         flex-wrap: nowrap;
@@ -318,6 +311,7 @@
         height: 30%;
         border-radius: 100%;
     }
+    */
 
     .schedule-body div:first-child h2 {
         font-size: 20px;
